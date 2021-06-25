@@ -30,3 +30,9 @@ mvn spring-boot:run
 - You can access the application on [localhost:8080](http://localhost:8080)
 - Swagger documentation will be available on [http://localhost:8080/swagger-ui.html#/](http://localhost:8080/swagger-ui.html#/)
                                                                                                        
+- Connect to h2 in memory DB on [localhost:8080/h2-console](localhost:8080/h2-console)
+```
+jdbc url : jdbc:h2:mem:testdb;
+username : sa
+password : password
+```
